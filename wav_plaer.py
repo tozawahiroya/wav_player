@@ -1,9 +1,11 @@
 
 import streamlit as st
 
-uploaded_file = st.file_uploader("Choose a file")
+speech_file='test_2023-02-19-06-40-28-929818.wav'
+with io.open(speech_file,'rb') as f:
+    content = f.read()
 
-st.audio(uploaded_file)
+st.audio(content)
 
 
 
