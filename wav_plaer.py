@@ -6,7 +6,7 @@ import streamlit as st
 #with io.open(speech_file,'rb') as f:
 #    content = f.read()
 
-content = st.file_uploader(label)
+content = st.file_uploader('label')
     
 st.audio(content)
 
