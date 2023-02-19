@@ -8,7 +8,7 @@ import streamlit as st
 
 content = st.file_uploader('label')
     
-st.audio(content)
+st.audio(content, format = "audio/wav")
 
 
 
