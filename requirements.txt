@@ -1,4 +1,3 @@
 google-cloud-storage
 gspread
-io
-wave
+oauth2client
