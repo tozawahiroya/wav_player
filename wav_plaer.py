@@ -3,9 +3,13 @@ import os
 import io
 import numpy as np
 import pandas as pd
+import audioop
+import time
+import datetime
 import wave
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from google.cloud import speech
 import streamlit as st
 
 
@@ -87,4 +91,9 @@ st.info('■設問　' + question)
 st.audio(contents, format="audio/wav")
 st.write(text)
 # st.text_area('回答内容（Speech to text）', text)
+
+
+
+
+
 
