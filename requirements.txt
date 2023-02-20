@@ -1,7 +1,7 @@
-google-cloud-speech
-google-cloud-storage
+google.cloud
+google.cloud.storage
+gspread
+oauth2client
 os
 io
-pandas
-audioop
-time
+wave
