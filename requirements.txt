@@ -1,7 +1,0 @@
-google.cloud
-google.cloud.storage
-gspread
-oauth2client
-os
-io
-wave
